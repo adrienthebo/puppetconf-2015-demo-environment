@@ -1,0 +1,7 @@
+pe_build:
+  version: "2015.3.0"
+  # sha: 2015.3.0-rc3-374-ga8f13db
+  download_root: "http://neptune.delivery.puppetlabs.net/2015.3/ci-ready"
+  filename:     "puppet-enterprise-2015.3.0-rc3-374-ga8f13db-ubuntu-14.04-amd64.tar"
+
+# http://neptune.delivery.puppetlabs.net/4.0/ci-ready/puppet-enterprise-4.0.0-rc3-40-g4700373-el-6-x86_64.tar
