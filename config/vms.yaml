@@ -3,7 +3,9 @@ vms:
   - name: master
     box: puppetlabs/ubuntu-14.04-64-nocm
     roles: [pe-puppet-master]
+
   - name: mon1
+    hostname: mon1.puppetconf.demo
     box: puppetlabs/ubuntu-14.04-64-nocm
     roles: [pe-puppet-agent]
   - name: app1
