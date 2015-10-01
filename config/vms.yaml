@@ -8,6 +8,16 @@ vms:
     hostname: mon1.puppetconf.demo
     box: puppetlabs/ubuntu-14.04-64-nocm
     roles: [pe-puppet-agent]
+
   - name: app1
+    hostname: app1.puppetconf.demo
+    box: puppetlabs/ubuntu-14.04-64-nocm
+    roles: [pe-puppet-agent]
+  - name: app2
+    hostname: app2.puppetconf.demo
+    box: puppetlabs/ubuntu-14.04-64-nocm
+    roles: [pe-puppet-agent]
+  - name: app3
+    hostname: app3.puppetconf.demo
     box: puppetlabs/ubuntu-14.04-64-nocm
     roles: [pe-puppet-agent]
